@@ -1,0 +1,74 @@
+.indexContainerDesktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100vh;
+    background-image: url(../../Mosaic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.indexHeadingDesktop {
+    color: #fff; 
+    font-size: 72px;
+    font-weight: bold;
+}
+.indexParagraphDesktop {
+    color: #fff;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.indexContainerMobile {
+    display: flex;
+    position:fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    width: 100%;
+    height:100%;
+    padding-left: 10px;
+    background-image: url(../../Mosaic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.indexHeadingMobile {
+    color: #fff; 
+    font-size: xx-large;
+    align-self: stretch;
+    font-weight: bold;
+}
+.indexParagraphMobile {
+    color: #fff;
+    font-size: small;
+    align-self: flex-start;
+    font-style: italic;
+}
+
+.indexContainerTablet {
+    display: flex;
+    position:fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    width: 100%;
+    height:100%;
+    background-image: url(../../Mosaic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.indexHeadingTablet {
+    color: #fff; 
+    font-size: 48px;
+    align-self: center;
+    font-weight: bold;
+}
+.indexParagraphTablet {
+    color: #fff;
+    font-size: x-large;
+    align-self: center;
+    font-style: italic;
+}
