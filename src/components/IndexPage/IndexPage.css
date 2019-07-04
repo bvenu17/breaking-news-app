@@ -22,13 +22,12 @@
 
 .indexContainerMobile {
     display: flex;
-    position:fixed;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin:0;
     width: 100%;
-    height:100%;
+    height:100vh;
     padding-left: 10px;
     background-image: url(../../Mosaic.png);
     background-size: cover;
@@ -49,13 +48,12 @@
 
 .indexContainerTablet {
     display: flex;
-    position:fixed;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin:0;
     width: 100%;
-    height:100%;
+    height:100vh;
     background-image: url(../../Mosaic.png);
     background-size: cover;
     background-repeat: no-repeat;
