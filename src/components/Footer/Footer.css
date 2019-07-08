@@ -1,0 +1,16 @@
+.textContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 5px;
+    background: #2d3436;
+}
+.footerText{
+    display: flex;
+    font-style: oblique;
+    font-size:small;
+    color: #fff;
+}

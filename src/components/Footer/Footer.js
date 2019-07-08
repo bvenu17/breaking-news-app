@@ -1,17 +1,12 @@
 import React from 'react';
-import {
-  Navbar,
-  NavbarBrand,
-  } from 'reactstrap';
+import './Footer.css';
 
 export default class Footer extends React.Component {
  
   render() {
     return (
-      <div>
-        <Navbar style={{backgroundColor:'#212121', textAlign:'center', justifyContent:'center', fontStyle:'italic'}} dark expand="md">
-          <NavbarBrand href="/">powered by NewsAPI.org ©</NavbarBrand>
-        </Navbar>
+      <div className="textContainer">
+        <p className="footerText">powered by NewsAPI.org ©</p>
       </div>
     );
   }
